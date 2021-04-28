@@ -17,8 +17,8 @@ router.get('/', async (req, res) => {
         through: ProductTag
       }
     ]
-  });
-    res.status(200).json(cateData);
+  })
+    res.status(200).json(productData);
   } catch (err) {
     res.status(500).json(err);
   }
@@ -43,7 +43,7 @@ router.get('/:id', async (req, res) => {
 });
 
 // create new product
-router.post('/', (req, res) => {
+router.post('/', async (req, res) => {
   /* req.body should look like this...
     {
       product_name: "Basketball",
