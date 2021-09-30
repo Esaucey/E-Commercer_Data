@@ -22,4 +22,6 @@ Manipulating products route:
 
 ## Technology
 
+- Javascript
 - Node JS
+- Express
