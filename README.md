@@ -19,3 +19,7 @@ Manipulating tags route:
 Manipulating products route:
 
 [products route demo](https://drive.google.com/file/d/1o8VrPqwOMRPy36Vnd9FFRh5S3UJukSJu/view)
+
+## Technology
+
+- Node JS
