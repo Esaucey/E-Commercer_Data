@@ -25,3 +25,4 @@ Manipulating products route:
 - Javascript
 - Node JS
 - Express
+- SQL
